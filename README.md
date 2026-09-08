@@ -1,4 +1,4 @@
-# mcp-proxy-agent
+# slim-mcp-agent
 
 A dead-simple, no-bullshit boilerplate to optimize Agentic AI systems (Cline, Roo Code, OpenCode, Windsurf, etc.) for token savings. 
 
