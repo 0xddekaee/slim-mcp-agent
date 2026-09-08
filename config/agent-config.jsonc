@@ -1,0 +1,42 @@
+{
+  "$schema": "", // Optional: drop your schema URL here if your client supports one.
+
+  "mcp": {
+    "mcp-proxy": {
+      "type": "local",
+
+      // Swap this out with whatever MCP proxy you're using.
+      // The repo doesn't lock you into any specific proxy or setup.
+      "command": [
+        "", // Your proxy command / executable.
+        "-c",
+        "medium", // Proxy profile or config level. Change it if needed.
+        "--config",
+        "" // Path to your proxy config.
+      ],
+
+      // Flip this to false if you wanna disable the proxy for now.
+      "enabled": true
+    }
+  },
+
+  "experimental": {
+    // Max time an MCP operation can run, in milliseconds.
+    // Bump this up if you're dealing with slow or heavy MCP servers.
+    "mcp-timeout": 120000
+  },
+
+  "lsp": {
+    // Replace this with your LSP server name.
+    // e.g. "typescript", "python", "rust", "go", "svelte", etc.
+    "": {
+      // Command used to start your LSP server.
+      "command": [""],
+
+      // File extensions this LSP should handle.
+      // e.g. ["ts", "tsx", "js", "jsx"]
+      "extensions": [""]
+    }
+  }
+}
+```
