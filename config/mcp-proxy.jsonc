@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "": { // Name your MCP server here.
+      // Add whatever MCPs you want no hardcoded stack, no bullshit.
+      "command": "", // Command that starts the MCP server.
+      "args": [""] // Arguments for the server.
+    }
+  }
+}
